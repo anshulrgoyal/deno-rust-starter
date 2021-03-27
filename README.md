@@ -1,0 +1,1 @@
+# starter for my blog

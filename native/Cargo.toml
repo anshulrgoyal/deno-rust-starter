@@ -1,0 +1,14 @@
+[package]
+name = "native"
+version = "0.1.0"
+authors = ["anshul <anshulgoel151999@gmail.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[lib]
+name = "native"
+crate-type = ["cdylib"]
+
+[dependencies]
+deno_core = "0.75.0"
